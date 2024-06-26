@@ -1,0 +1,176 @@
+body {
+  text-align: center;
+  margin: 0;
+  color: black;
+  font-family: "Playwrite Australia Tasmania", sans-serif;
+}
+
+.top-container {
+  background-color:blue;
+  height: 150px;
+  position: relative;
+  padding: 100px
+}
+
+.ai {
+  width: 200px;
+  height: auto;
+  top: 0;
+  left: 50%;
+  position: absolute;
+  transform: translateX(-50%);
+}
+
+h1 {
+  font-weight: bold;
+  left: 50%;
+  margin-top: 50px;
+  color: cornflowerblue;
+}
+
+h2 {
+  left: 50%;
+  font-weight: bold;
+  color: cornflowerblue;
+}
+
+
+.ai-left {
+  width: 200px;
+  height: auto;
+  position: absolute;
+  left: 10px;
+  top: 50%;
+  transform: translateY(-50%);
+}
+
+.ai-right {
+  width: 200px;
+  height: auto;
+  top: 50%;
+  right: 20px;
+  position: absolute;
+  transform: translatey(-50%);
+}
+
+.middle-container {
+  margin-bottom: 50px;
+}
+
+.profile-pic {
+  border-radius: 50%;
+  height: 200px;
+  margin-top: 40px;
+}
+
+p {
+  line-height: 2;
+}
+
+.intro {
+  width: 30%;
+  margin: auto;
+}
+
+hr {
+  color: #40514e;
+  text-align: center;
+  font-family: "Playwrite Australia Tasmania", sans-serif;
+  border: dotted #eaf6f6 6px;
+  border-bottom: none;
+  width: 4%;
+  margin: 100px auto;
+}
+
+.skills h2 {
+  font-family: "Playwrite Australia Tasmania", sans-serif;
+  font-size: 4.5 rem;
+  font-weight: normal;
+  padding-bottom: 10px;
+}
+
+.skill {
+  display: grid;
+  grid-template-columns: 0.5fr 1fr;
+  grid-template-rows: repeat(1, 1fr);
+  width: 50%;
+  margin: 100px auto 0 auto;
+  text-align: left;
+  row-gap: 2rem;
+}
+
+.data img {
+  width: 200px;
+}
+
+h3 {
+  font-family: "Playwrite Australia Tasmania", sans-serif;
+  color: cornflowerblue;
+  display: block;
+  font-size: 1.17em;
+  margin-block-start: 1em;
+  margin-block-end: 1em;
+  margin-inline-start: 0px;
+  margin-inline-end: 0px;
+  font-weight: bold;
+  unicode-bidi: isolate;
+}
+
+.data p {
+  display: block;
+  margin-block-start: 1em;
+  margin-block-end: 1em;
+  margin-inline-start: 0px;
+  margin-inline-end: 0px;
+  unicode-bidi: isolate;
+
+}
+
+.chocolates img {
+  width: 200px;
+  margin-right: 45%;
+}
+
+.coding img {
+  width: 200px;
+  margin-right: 45%;
+}
+
+.contact-message {
+  width: 40%;
+  margin: 40px auto 60px;
+}
+
+.contact-message p {
+  display: block;
+  margin-block-start: 1em;
+  margin-block-end: 1em;
+  margin-inline-start: 0px;
+  margin-inline-end: 0px;
+  unicode-bidi: isolate;
+}
+
+.btn {
+  background-color: blueviolet;
+  border-radius: 8px;
+  font-family: "Playwrite Australia Tasmania", sans-serif;
+  color: white;
+  font-size: 20px;
+  padding: 10px 20px 10px 10px;
+  text-decoration: none;
+}
+
+.bottom-container {
+  background-color: blue;
+  padding: 50px 0 120px;
+  color: white;
+}
+
+.footer-link {
+  color: white;
+  text-decoration: none;
+}
+
+.footer-link:hover {
+  color: gray;
+}
